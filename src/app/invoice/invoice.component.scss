@@ -1,0 +1,32 @@
+.invoice-container {
+  text-align: center;
+  padding: 20px;
+
+  .invoice-box {
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    width: 400px;
+    border: 3px solid #ccc;
+  }
+
+  table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+
+    th, td {
+      border: 2px solid #ccc;
+      padding: 9px;
+    }
+
+    th {
+      background: #f0f0f0;
+    }
+  }
+
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,35 @@
+<div class="invoice-container">
+  <div class="invoice-box" #invoiceContent>
+    <h2>Invoice</h2>
+    <p><strong>Patient:</strong> <strong>HARSAVARDAN BORDE</strong></p>
+    <p><strong>Date:</strong>June 11, 2025</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Medicine</th>
+          <th>Qty</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ceftos Para Acid 60mg</td>
+          <td>5</td>
+          <td>₹5,000</td>
+        </tr>
+        <tr>
+          <td>Doxomol 40mg</td>
+          <td>1</td>
+          <td>₹2,000</td>
+        </tr>
+        <tr>
+          <td colspan="2"><strong>Total</strong></td>
+          <td><strong>₹7,000</strong></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <button (click)="downloadPdf()">Download Invoice PDF</button>
+</div>
